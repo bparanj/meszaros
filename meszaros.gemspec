@@ -4,8 +4,8 @@ require File.expand_path('../lib/meszaros/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Bala Paranj"]
   gem.email         = ["bparanj@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{xUnit Test Patterns related utilities for RSpec}
+  gem.summary       = %q{xUnit Test Patterns related utilities for RSpec}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)

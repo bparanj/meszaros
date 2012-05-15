@@ -1,6 +1,6 @@
 # Meszaros
 
-TODO: Write a gem description
+TODO: Mixin the utility without using the prefix Meszaros::Loop
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Look at the specs for usage instructions. Run specs by :
+
+rspec spec/meszaros/loop_spec.rb --format doc
 
 ## Contributing
 
