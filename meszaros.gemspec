@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "meszaros"
   gem.require_paths = ["lib"]
   gem.version       = Meszaros::VERSION
+  
+  gem.add_development_dependency "rspec"
 end
