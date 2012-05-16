@@ -33,7 +33,7 @@ module Meszaros
     it "should raise exception when nil is passed as the parameter to data driven spec" do
       expect do
         Loop.data_driven_spec(nil) do |element|
-          fail
+          true.should be_true
         end
       end.to raise_error
 
@@ -62,7 +62,7 @@ module Meszaros
     it "should raise exception when nil is passed for the parameter to repeat" do      
       expect do
         Loop.repeat(nil) do
-          fail        
+          true.should be_true      
         end
       end.to raise_error
       
@@ -71,7 +71,7 @@ module Meszaros
     it "should raise exception when string is passed for the parameter to repeat" do      
       expect do
         Loop.repeat("dumb") do
-          fail        
+          true.should be_true        
         end
       end.to raise_error
     end
@@ -79,7 +79,7 @@ module Meszaros
     it "should raise exception when float is passed for the parameter to repeat" do      
       expect do
         Loop.repeat(2.2) do
-          fail        
+          true.should be_true        
         end
       end.to raise_error
     end
